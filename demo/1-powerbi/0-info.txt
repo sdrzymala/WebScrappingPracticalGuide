@@ -1,0 +1,7 @@
+1. Open 1-address and copy url
+2. Open report-empty or open Power BI Desktop
+3. Live demo - get data from Web from the above url
+4. Get data using code from python-script
+5. Get data using code from r-script
+6. Open 5-address and copy url
+7. Try to get data from above url

@@ -1,0 +1,5 @@
+1. Run first app beatutifulsoup (not working)
+2. Run second app selenium (working)
+2. Run third app selenium (not working)
+3. Optional run also pypeeter (not working)
+3. Open url in browser

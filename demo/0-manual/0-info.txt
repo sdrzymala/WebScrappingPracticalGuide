@@ -1,0 +1,7 @@
+0. Install "Simple Autoscroll" 
+1. Login to twitter using Google Chrome (or any other browser with any other extension)
+2. Search using advanced filtering (see search.txt)
+3. Switch to latest
+4. Start "Simple Autoscroll" extension and wait till finish
+5. Go to developer tools (press f12)
+6. Get and save website source
