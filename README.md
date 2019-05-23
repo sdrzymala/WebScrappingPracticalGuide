@@ -1,5 +1,5 @@
-# Web scrapping - practical guide
-Sample code created for presentation called "Web scrapping - practical guide"
+# Web scraping - practical guide
+Sample code created for presentation called "Web scraping - practical guide"
 
 # Notes and disclaimers
 Please note that:
