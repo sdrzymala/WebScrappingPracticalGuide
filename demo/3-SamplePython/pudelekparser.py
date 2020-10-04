@@ -8,11 +8,11 @@ import argparse
 parser = argparse.ArgumentParser(description='Scrapping Pudelek')
 parser.add_argument('--log_path', type=str, help='path to log file', default='myapp.log')
 parser.add_argument('--selenium_driver_path', type=str, help='path to selenium executable file', default=r'E:\Tools\selenium_drivers\chromedriver.exe')
-parser.add_argument('--db_connectionstring', type=str, help='database connection string', default='DRIVER={ODBC Driver 17 for SQL Server};SERVER=XX.XX.XX.XX;DATABASE=Pudelek;UID=sa;PWD=XX')
+parser.add_argument('--db_connectionstring', type=str, help='database connection string', default='DRIVER={ODBC Driver 17 for SQL Server};SERVER=192.168.8.227;DATABASE=pudelek2;UID=sa;PWD=Pass@word2@')
 parser.add_argument('--run_type', type=str, help='type of run, [al] - articles list, [ad] - articles details', default='ad')
 parser.add_argument('--al_start_page', type=str, help='start page to get list of articles', default='1')
-parser.add_argument('--al_no_pages', type=str, help='number of pages to get list of articles', default='5')
-parser.add_argument('--ad_no_pages', type=str, help='number of pages to get articles details', default='5000')
+parser.add_argument('--al_no_pages', type=str, help='number of pages to get list of articles', default='50')
+parser.add_argument('--ad_no_pages', type=str, help='number of pages to get articles details', default='250')
 args = parser.parse_args()
 
 log_file_path = args.log_path
@@ -36,4 +36,6 @@ elif run_type == 'ad':
 else:
     raise ValueError('Selenium drivers path not provided')
     
+#toolkit.get_single_article_content_basic_article_using_selenium_and_save_to_db("https://www.pudelek.pl/poznajcie-elizabeth-debicki-polke-ktora-wcieli-sie-w-ksiezna-diane-w-kolejnym-sezonie-the-crown-nadaje-sie-do-roli-zdjecia-6544720151840385g", 966)
+
 #endregion
